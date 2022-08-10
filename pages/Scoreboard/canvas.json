@@ -154,7 +154,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 37,
+                      "leftColumn": 52,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -204,7 +204,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 37,
+                      "leftColumn": 52,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -323,7 +323,7 @@
                       "text": "{{appsmith.store.player1_score}}",
                       "key": "iq982ny69b",
                       "isDeprecated": false,
-                      "rightColumn": 37,
+                      "rightColumn": 52,
                       "textAlign": "CENTER",
                       "widgetId": "g91i1hnz33",
                       "isVisible": true,
@@ -334,7 +334,7 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "3.5rem"
+                      "fontSize": "4rem"
                     }
                   ],
                   "key": "8kwk9ynfmd",
@@ -444,7 +444,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 37,
+                      "leftColumn": 52,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -494,7 +494,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 37,
+                      "leftColumn": 52,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -613,7 +613,7 @@
                       "text": "{{appsmith.store.player2_score}}",
                       "key": "iq982ny69b",
                       "isDeprecated": false,
-                      "rightColumn": 37,
+                      "rightColumn": 52,
                       "textAlign": "CENTER",
                       "widgetId": "lyhy32bpcq",
                       "isVisible": true,
@@ -624,7 +624,7 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "3.5rem"
+                      "fontSize": "4rem"
                     }
                   ],
                   "key": "8kwk9ynfmd",
@@ -742,7 +742,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 37,
+                      "leftColumn": 52,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -792,7 +792,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 37,
+                      "leftColumn": 52,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -911,7 +911,7 @@
                       "text": "{{appsmith.store.player3_score}}",
                       "key": "iq982ny69b",
                       "isDeprecated": false,
-                      "rightColumn": 37,
+                      "rightColumn": 52,
                       "textAlign": "CENTER",
                       "widgetId": "mde2mgq8px",
                       "isVisible": true,
@@ -922,7 +922,7 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "3.5rem"
+                      "fontSize": "4rem"
                     }
                   ],
                   "key": "8kwk9ynfmd",
@@ -1040,7 +1040,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 37,
+                      "leftColumn": 52,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -1090,7 +1090,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 37,
+                      "leftColumn": 52,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -1209,7 +1209,7 @@
                       "text": "{{appsmith.store.player4_score}}",
                       "key": "iq982ny69b",
                       "isDeprecated": false,
-                      "rightColumn": 37,
+                      "rightColumn": 52,
                       "textAlign": "CENTER",
                       "widgetId": "4axwb5nm4w",
                       "isVisible": true,
@@ -1220,7 +1220,7 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "3.5rem"
+                      "fontSize": "4rem"
                     }
                   ],
                   "key": "8kwk9ynfmd",
@@ -1338,7 +1338,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 37,
+                      "leftColumn": 52,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -1388,7 +1388,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 37,
+                      "leftColumn": 52,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -1507,7 +1507,7 @@
                       "text": "{{appsmith.store.player5_score}}",
                       "key": "iq982ny69b",
                       "isDeprecated": false,
-                      "rightColumn": 37,
+                      "rightColumn": 51,
                       "textAlign": "CENTER",
                       "widgetId": "7rcmm4sccm",
                       "isVisible": true,
@@ -1518,7 +1518,7 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "3.5rem"
+                      "fontSize": "4rem"
                     }
                   ],
                   "key": "8kwk9ynfmd",
@@ -1636,7 +1636,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 37,
+                      "leftColumn": 52,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -1686,7 +1686,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 37,
+                      "leftColumn": 52,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -1805,7 +1805,7 @@
                       "text": "{{appsmith.store.player6_score}}",
                       "key": "iq982ny69b",
                       "isDeprecated": false,
-                      "rightColumn": 37,
+                      "rightColumn": 52,
                       "textAlign": "CENTER",
                       "widgetId": "wp0u8r51nc",
                       "isVisible": true,
@@ -1816,7 +1816,7 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "3.5rem"
+                      "fontSize": "4rem"
                     }
                   ],
                   "key": "8kwk9ynfmd",
