@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 810,
+          "bottomRow": 780,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -113,7 +113,7 @@
               "topRow": 8,
               "bottomRow": 12,
               "parentRowSpace": 10,
-              "labelWidth": "8",
+              "labelWidth": "14",
               "type": "SELECT_WIDGET",
               "serverSideFiltering": false,
               "hideCard": false,
@@ -180,7 +180,7 @@
                   "key": "onClick"
                 }
               ],
-              "leftColumn": 48,
+              "leftColumn": 32,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
