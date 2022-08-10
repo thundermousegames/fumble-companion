@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Intro video",
-    "slug": "intro-video",
+    "name": "Demo Video",
+    "slug": "demo-video",
     "layouts": [
       {
         "viewMode": false,
@@ -68,7 +68,7 @@
         },
         "layoutOnLoadActions": [],
         "validOnPageLoadActions": true,
-        "id": "Intro video",
+        "id": "Demo Video",
         "deleted": false,
         "policies": [],
         "userPermissions": []
