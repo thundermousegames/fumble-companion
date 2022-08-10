@@ -2611,6 +2611,7 @@
               "isDeprecated": false,
               "rightColumn": 32,
               "isDefaultClickDisabled": true,
+              "iconName": "user",
               "widgetId": "r8qlry7zr0",
               "isVisible": true,
               "recaptchaType": "V3",
@@ -2621,6 +2622,7 @@
               "disabledWhenInvalid": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "buttonVariant": "PRIMARY",
+              "iconAlign": "left",
               "placement": "CENTER"
             }
           ]
