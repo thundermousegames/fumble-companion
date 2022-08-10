@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tscores: {},\n\tincrementPlayer: (amount) => {\n\t\tstoreValue(\"userID\", 42);  \n  console.log(appsmith.store.userID); \n  showAlert(\"userID saved\");\n\t\tthis.scores['player1'] = amount;\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "scores",
+        "value": "{}"
+      }
+    ]
+  },
+  "id": "Page1_JSObject1",
+  "deleted": false,
+  "gitSyncId": "62f38bcf74d6e95d0a53ff15_62f38f2074d6e95d0a540003"
+}
