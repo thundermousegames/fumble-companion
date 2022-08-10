@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  storeValue('player6_active', false);\n  storeValue(\"player1_score\", 0);\n  storeValue(\"player2_score\", 0);\n  storeValue(\"player3_score\", 0);\n  storeValue(\"player4_score\", 0);\n  storeValue(\"player5_score\", 0);\n  storeValue(\"player6_score\", 0);\n}",
+      "body": "() => {\n  storeValue('player6_active', true);\n  storeValue('scoreboard', 'Player 1: 0');\n  storeValue(\"player1_score\", 0);\n  storeValue(\"player2_score\", 0);\n  storeValue(\"player3_score\", 0);\n  storeValue(\"player4_score\", 0);\n  storeValue(\"player5_score\", 0);\n  storeValue(\"player6_score\", 0);\n}",
       "jsArguments": [],
       "isAsync": true
     },
@@ -34,7 +34,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n  storeValue('player6_active', false);\n  storeValue(\"player1_score\", 0);\n  storeValue(\"player2_score\", 0);\n  storeValue(\"player3_score\", 0);\n  storeValue(\"player4_score\", 0);\n  storeValue(\"player5_score\", 0);\n  storeValue(\"player6_score\", 0);\n}"
+      "() => {\n  storeValue('player6_active', true);\n  storeValue('scoreboard', 'Player 1: 0');\n  storeValue(\"player1_score\", 0);\n  storeValue(\"player2_score\", 0);\n  storeValue(\"player3_score\", 0);\n  storeValue(\"player4_score\", 0);\n  storeValue(\"player5_score\", 0);\n  storeValue(\"player6_score\", 0);\n}"
     ],
     "userSetOnLoad": true,
     "confirmBeforeExecute": false,

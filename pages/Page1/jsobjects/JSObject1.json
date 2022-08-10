@@ -6,7 +6,7 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\tmyVar1: [],\n\tscores: {\n\t\t'player1':0\n\t},\n\tincrementPlayer: () => {\n\t\tstoreValue(\"player1_score\", 42);  \n  //console.log(appsmith.store.userID); \n  //showAlert(\"userID saved\");\n\t\t//this.scores['player1'] = 3;\n\t\t\n\t},\n\tinitialize: () => {\n\t\tstoreValue('player6_active', false)\n\t\t\tstoreValue(\"player1_score\", 0);  \n\t\tstoreValue(\"player2_score\", 0);  \n\t\tstoreValue(\"player3_score\", 0);  \n\t\tstoreValue(\"player4_score\", 0);  \n\t\tstoreValue(\"player5_score\", 0);  \n\t\tstoreValue(\"player6_score\", 0);  \n\t}\n}",
+    "body": "export default {\n\tmyVar1: [],\n\tscores: {\n\t\t'player1':0\n\t},\n\tincrementPlayer: (pnum, amt) => {\n\t\tvar key = \"player\" + pnum + \"_score\";\n\t\tstoreValue(key, appsmith.store[key] + amt);  \n  //console.log(appsmith.store.userID); \n  //showAlert(\"userID saved\");\n\t\t//this.scores['player1'] = 3;\n\t\t\n\t},\n\tinitialize: () => {\n\t\tstoreValue('player6_active', true)\n\t\tstoreValue('scoreboard','Player 1: 0')\n\t\t\tstoreValue(\"player1_score\", 0);  \n\t\tstoreValue(\"player2_score\", 0);  \n\t\tstoreValue(\"player3_score\", 0);  \n\t\tstoreValue(\"player4_score\", 0);  \n\t\tstoreValue(\"player5_score\", 0);  \n\t\tstoreValue(\"player6_score\", 0);  \n\t}\n}",
     "variables": [
       {
         "name": "myVar1",
