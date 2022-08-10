@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
-    "collectionId": "Page1_JSObject1",
+    "pageId": "Scoreboard",
+    "collectionId": "Scoreboard_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -44,7 +44,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_JSObject1.incrementPlayer",
+  "id": "Scoreboard_JSObject1.incrementPlayer",
   "deleted": false,
   "gitSyncId": "62f38bcf74d6e95d0a53ff15_62f38f2074d6e95d0a53ffff"
 }

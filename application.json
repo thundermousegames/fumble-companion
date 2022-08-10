@@ -1,8 +1,12 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Scoreboard",
       "isDefault": true
+    },
+    {
+      "id": "Rules",
+      "isDefault": false
     }
   ],
   "viewMode": false,

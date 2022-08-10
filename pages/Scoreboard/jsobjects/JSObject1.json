@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Scoreboard",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tscores: {\n\t\t'player1':0\n\t},\n\tincrementPlayer: (pnum, amt) => {\n\t\tvar key = \"player\" + pnum + \"_score\";\n\t\tvar val = appsmith.store[key] + amt;\n\t\t\n\t\tif (val >= 0) { \n\t\t\tstoreValue(key, val);  \t\t\n\t\t}\n\t},\n\tplayerCountChange:() => {\n\t   for (var x=1; x<=6; x++) {\n\t\t\t storeValue(\"player\" + x + \"_active\", x<=parseInt(Select1.selectedOptionValue));\n\t\t }\n\t},\n\tinitialize: () => {\n\t\tthis.playerCountChange();\n\t\t\n\t   for (var x=1; x<=6; x++) {\n\t\t\t\tstoreValue(\"player\" + x + \"_score\", 0); \n\t\t }\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "scores",
+        "value": "{\n  'player1': 0\n}"
+      }
+    ]
+  },
+  "id": "Scoreboard_JSObject1",
+  "deleted": false,
+  "gitSyncId": "62f38bcf74d6e95d0a53ff15_62f38f2074d6e95d0a540003"
+}
