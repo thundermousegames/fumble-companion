@@ -19,9 +19,9 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  appsmith.store.player1_score = 3;\n}",
+      "body": "() => {\n  storeValue(\"player1_score\", 42);\n}",
       "jsArguments": [],
-      "isAsync": false
+      "isAsync": true
     },
     "executeOnLoad": false,
     "clientSideExecution": true,
@@ -34,7 +34,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n  appsmith.store.player1_score = 3;\n}"
+      "() => {\n  storeValue(\"player1_score\", 42);\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun2",
-    "fullyQualifiedName": "JSObject1.myFun2",
+    "name": "initialize",
+    "fullyQualifiedName": "JSObject1.initialize",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -19,11 +19,11 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "async () => {}",
+      "body": "() => {\n  storeValue('player6_active', false);\n  storeValue(\"player1_score\", 0);\n  storeValue(\"player2_score\", 0);\n  storeValue(\"player3_score\", 0);\n  storeValue(\"player4_score\", 0);\n  storeValue(\"player5_score\", 0);\n  storeValue(\"player6_score\", 0);\n}",
       "jsArguments": [],
       "isAsync": true
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
@@ -34,14 +34,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "async () => {}"
+      "() => {\n  storeValue('player6_active', false);\n  storeValue(\"player1_score\", 0);\n  storeValue(\"player2_score\", 0);\n  storeValue(\"player3_score\", 0);\n  storeValue(\"player4_score\", 0);\n  storeValue(\"player5_score\", 0);\n  storeValue(\"player6_score\", 0);\n}"
     ],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_JSObject1.myFun2",
+  "id": "Page1_JSObject1.initialize",
   "deleted": false,
   "gitSyncId": "62f38bcf74d6e95d0a53ff15_62f38f2074d6e95d0a540000"
 }
