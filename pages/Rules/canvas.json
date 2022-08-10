@@ -27,26 +27,24 @@
           "children": [
             {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-              "widgetName": "Iframe1",
-              "borderColor": "#ef4444",
-              "srcDoc": "<div style=\"font-family: Verdana, Arial, Tahoma, Serif; background-color:white; padding:8px;\">\n<h3>Setup</h3>\nThe game starts by placing the orange ball into the center of the table. Then place enough white balls for a total of one LESS than the number of players you'll have playing the game. \n\n<p style=\"font-style: italic\"><b>Example:</b> If 5 players will be playing, place 3 WHITE balls and 1 ORANGE ball in the center of the table.</p>\n\n<p>\nNext, if you have less than 6 players, remove one set of 5 position cards from your deck for each player less than 6. \n</p>\n\n<p style=\"font-style: italic\"><b>Example:</b> If 4 players will be playing, remove 2 sets of 5 position cards from your deck (let's say WR and DE) </p>\n\n<p>\nFinally, shuffle the deck and deal 5 cards to each player. Players can pick up their cards and look at them but shouldn't let others see their hands.\n</p>\n\n<h3>The Snap</h3>\nThe game starts with the winner of the last game calling out \"HIKE!\". If this is your first game then the youngest player gets the call. \n\n<h3>The Play</h3>\n<p>\nOnce HIKE! is called, each player takes 1 card from their hand and passes it FACE DOWN on the table to the player on their LEFT. After they pass the card, they pick up the card that was passed to them from the player on their right. \n</p>\n<p style=\"font-style: italic\"><b>Note:</b> A player should NEVER have more than 5 cards in their hand. That means no picking up a card until AFTER you have discarded!</p>\n\n<p>\nPlayers continue to pass and pick cards in this way until a player has 5 cards of the SAME POSITION in their hand. That player quickly (and possibly secretly) grabs the orange TOUCHDOWN ball (+6) from the center of the table. \n</p>\n<p>\nOnce the orange TOUCHDOWN ball has been snagged, the remaining players scramble to grab one of the remaining white balls as quickly as possible. One of the players will be left without a ball. \n</p>\n\n<h3>Kicks</h3>\nWith all of the balls recovered, the game shifts to kicking time. The player with the orange ball goes first, setting the cup up about a foot away and bouncing the orange ball off the table to try to hit an extra point (+1). The remaining players take shots with their white FIELD GOAL balls (+3). \n\n<p style=\"font-style: italic\"><b>Note:</b> Don't be afraid to move the cup further back for a more challenging shot! \n</p>\n\n<h3>Scoring</h3>\n<p>\nIn the standard game, the player who recovered the orange TOUCHDOWN ball receives 6 points plus an additional point if they made their extra point attempt. Any player that hit a shot with a white FIELD GOAL ball gets 3 points. \n</p>\n\n<h3>Winning</h3>\nThe standard game is over once someone scores more than 21 points. \n</div>",
-              "displayName": "Iframe",
-              "iconSVG": "/static/media/icon.34169b6acebc8ace125dd1f638974aae.svg",
-              "searchTags": [
-                "embed"
-              ],
-              "topRow": 12,
-              "bottomRow": 66,
+              "widgetName": "Tabs1",
+              "isCanvas": true,
+              "displayName": "Tabs",
+              "iconSVG": "/static/media/icon.74a6d653c8201e66f1cd367a3fba2657.svg",
+              "topRow": 8,
+              "bottomRow": 69,
               "parentRowSpace": 10,
-              "source": "",
-              "type": "IFRAME_WIDGET",
+              "type": "TABS_WIDGET",
               "hideCard": false,
-              "borderOpacity": "0",
+              "shouldScrollContents": false,
               "animateLoading": true,
-              "parentColumnSpace": 10.53125,
+              "parentColumnSpace": 10.84375,
               "dynamicTriggerPathList": [],
               "leftColumn": 0,
               "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
                 {
                   "key": "borderRadius"
                 },
@@ -54,13 +52,283 @@
                   "key": "boxShadow"
                 }
               ],
-              "borderWidth": "0",
-              "key": "evh4gch20d",
+              "children": [
+                {
+                  "tabId": "tab1",
+                  "boxShadow": "none",
+                  "widgetName": "Canvas1",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 560,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": true,
+                  "hideCard": true,
+                  "shouldScrollContents": false,
+                  "minHeight": 400,
+                  "parentColumnSpace": 1,
+                  "dynamicTriggerPathList": [],
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [
+                    {
+                      "key": "borderRadius"
+                    },
+                    {
+                      "key": "accentColor"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "widgetName": "Iframe1",
+                      "borderColor": "#ef4444",
+                      "srcDoc": "<div style=\"font-family: Verdana, Arial, Tahoma, Serif; background-color:white; padding:8px;\">\n<h3>Setup</h3>\nThe game starts by placing the orange ball into the center of the table. Then place enough white balls for a total of one LESS than the number of players you'll have playing the game. \n\n<p style=\"font-style: italic\"><b>Example:</b> If 5 players will be playing, place 3 WHITE balls and 1 ORANGE ball in the center of the table.</p>\n\n<p>\nNext, if you have less than 6 players, remove one set of 5 position cards from your deck for each player less than 6. \n</p>\n\n<p style=\"font-style: italic\"><b>Example:</b> If 4 players will be playing, remove 2 sets of 5 position cards from your deck (let's say WR and DE) </p>\n\n<p>\nFinally, shuffle the deck and deal 5 cards to each player. Players can pick up their cards and look at them but shouldn't let others see their hands.\n</p>\n\n<h3>The Snap</h3>\nThe game starts with the winner of the last game calling out \"HIKE!\". If this is your first game then the youngest player gets the call. \n\n<h3>The Play</h3>\n<p>\nOnce HIKE! is called, each player takes 1 card from their hand and passes it FACE DOWN on the table to the player on their LEFT. After they pass the card, they pick up the card that was passed to them from the player on their right. \n</p>\n<p style=\"font-style: italic\"><b>Note:</b> A player should NEVER have more than 5 cards in their hand. That means no picking up a card until AFTER you have discarded!</p>\n\n<p>\nPlayers continue to pass and pick cards in this way until a player has 5 cards of the SAME POSITION in their hand. That player quickly (and possibly secretly) grabs the orange TOUCHDOWN ball (+6) from the center of the table. \n</p>\n<p>\nOnce the orange TOUCHDOWN ball has been snagged, the remaining players scramble to grab one of the remaining white balls as quickly as possible. One of the players will be left without a ball. \n</p>\n\n<h3>Kicks</h3>\nWith all of the balls recovered, the game shifts to kicking time. The player with the orange ball goes first, setting the cup up about a foot away and bouncing the orange ball off the table to try to hit an extra point (+1). The remaining players take shots with their white FIELD GOAL balls (+3). \n\n<p style=\"font-style: italic\"><b>Note:</b> Don't be afraid to move the cup further back for a more challenging shot! \n</p>\n\n<h3>Scoring</h3>\n<p>\nIn the standard game, the player who recovered the orange TOUCHDOWN ball receives 6 points plus an additional point if they made their extra point attempt. Any player that hit a shot with a white FIELD GOAL ball gets 3 points. \n</p>\n\n<h3>Winning</h3>\nThe standard game is over once someone scores more than 21 points. \n</div>",
+                      "displayName": "Iframe",
+                      "iconSVG": "/static/media/icon.34169b6acebc8ace125dd1f638974aae.svg",
+                      "searchTags": [
+                        "embed"
+                      ],
+                      "topRow": 0,
+                      "bottomRow": 54,
+                      "parentRowSpace": 10,
+                      "source": "",
+                      "type": "IFRAME_WIDGET",
+                      "hideCard": false,
+                      "borderOpacity": "0",
+                      "animateLoading": true,
+                      "parentColumnSpace": 10.53125,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "boxShadow"
+                        }
+                      ],
+                      "borderWidth": "0",
+                      "key": "evh4gch20d",
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "widgetId": "a724w1piom",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "61ovq2nrw3",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                    }
+                  ],
+                  "isDisabled": false,
+                  "key": "crz4od5wga",
+                  "isDeprecated": false,
+                  "tabName": "3-6 players",
+                  "rightColumn": 260.25,
+                  "detachFromLayout": true,
+                  "widgetId": "61ovq2nrw3",
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "wc8ig112o0",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                },
+                {
+                  "tabId": "tab2",
+                  "boxShadow": "none",
+                  "widgetName": "Canvas2",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 530,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": true,
+                  "hideCard": true,
+                  "shouldScrollContents": false,
+                  "minHeight": 400,
+                  "parentColumnSpace": 1,
+                  "dynamicTriggerPathList": [],
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [
+                    {
+                      "key": "borderRadius"
+                    },
+                    {
+                      "key": "accentColor"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "widgetName": "Iframe1Copy",
+                      "srcDoc": "<div style=\"font-family: Verdana, Arial, Tahoma, Serif;\">\n<h3>Setup</h3>\nDeal all cards in the deck face-down, evenly between each of the two opponents. \n\n<h3>Play</h3>\n<p>\nEach player turns up a card at the same time and the player with the higher number in the upper-right hand corner of his card takes both cards and puts them face up in a discard pile.\n</p>\n<p>\nAfter both players are out of cards, the kicking begins! Each player gets a single chance to score a pong-shot for <b>each</b> card they have won. \n</p>\n\n<p style=\"font-style: italic\"><b>Example:</b> Player 1 and Player 2 each start with 15 cards. Let's say Player 1 wins 10 flips and Player 2 wins 5… Player 1 gets to shoot 10 shots for 1 point each and player 2 gets to shoot 5. Whoever makes the most shots wins!\n</p>\n</div>",
+                      "displayName": "Iframe",
+                      "iconSVG": "/static/media/icon.34169b6acebc8ace125dd1f638974aae.svg",
+                      "searchTags": [
+                        "embed"
+                      ],
+                      "topRow": 0,
+                      "bottomRow": 51,
+                      "parentRowSpace": 10,
+                      "source": "",
+                      "type": "IFRAME_WIDGET",
+                      "hideCard": false,
+                      "borderOpacity": 100,
+                      "animateLoading": true,
+                      "parentColumnSpace": 10.53125,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "boxShadow"
+                        }
+                      ],
+                      "borderWidth": 1,
+                      "key": "evh4gch20d",
+                      "isDeprecated": false,
+                      "rightColumn": 63,
+                      "widgetId": "l7oe5xs5ad",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "u0afeza6gw",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                    }
+                  ],
+                  "isDisabled": false,
+                  "key": "crz4od5wga",
+                  "isDeprecated": false,
+                  "tabName": "2 players",
+                  "rightColumn": 260.25,
+                  "detachFromLayout": true,
+                  "widgetId": "u0afeza6gw",
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "wc8ig112o0",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                },
+                {
+                  "tabId": "tabe70866pmrl",
+                  "boxShadow": "none",
+                  "widgetName": "Canvas3",
+                  "displayName": "Canvas",
+                  "topRow": 1,
+                  "bottomRow": 600,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 610,
+                  "parentColumnSpace": 1,
+                  "dynamicTriggerPathList": [],
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [
+                    {
+                      "key": "borderRadius"
+                    },
+                    {
+                      "key": "accentColor"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "widgetName": "Iframe1CopyCopy",
+                      "srcDoc": "<div style=\"font-family: Verdana, Arial, Tahoma, Serif;\">\n<h3>Kickers Delight</h3>\n<p>\nIn this variation, instead of getting 6 points for collecting the orange TOUCHDOWN ball, the player instead gets the chance to shoot 7 shots worth 1 point each. The players who recover a white ball get 3 shots each worth 1 point.\n</p>\n\n<h3>Teams</h3>\n<p>\nWhen an even number of players are playing (either 4 or 6 players), teams can be divided and scores can be combined between the teams' players instead of recorded individually. \n</p>\n\n<h3>Safety</h3>\n<p>In this variation, the player who DIDN'T recover a ball gets NEGATIVE two points.\n</p>\n\n<h3>2 point conversion</h3>\n<p>\nIn this variation, the player who recovered the orange TOUCHDOWN ball gets a chance to take two shots. If they miss EITHER of the shots, they get zero points, but if they hit them both, they receive TWO points.\n</p>\n</div>\n",
+                      "displayName": "Iframe",
+                      "iconSVG": "/static/media/icon.34169b6acebc8ace125dd1f638974aae.svg",
+                      "searchTags": [
+                        "embed"
+                      ],
+                      "topRow": 0,
+                      "bottomRow": 51,
+                      "parentRowSpace": 10,
+                      "source": "",
+                      "type": "IFRAME_WIDGET",
+                      "hideCard": false,
+                      "borderOpacity": 100,
+                      "animateLoading": true,
+                      "parentColumnSpace": 10.53125,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "boxShadow"
+                        }
+                      ],
+                      "borderWidth": 1,
+                      "key": "evh4gch20d",
+                      "isDeprecated": false,
+                      "rightColumn": 63,
+                      "widgetId": "xsv0vs3gfo",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "3kiwi5t1y1",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                    }
+                  ],
+                  "key": "crz4od5wga",
+                  "isDeprecated": false,
+                  "tabName": "Fun Variations",
+                  "rightColumn": 694,
+                  "detachFromLayout": true,
+                  "widgetId": "3kiwi5t1y1",
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "wc8ig112o0",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                }
+              ],
+              "key": "3bcqd9o9en",
               "isDeprecated": false,
               "rightColumn": 64,
-              "widgetId": "2pxkljaz7u",
+              "widgetId": "wc8ig112o0",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "defaultTab": "3-6 players",
+              "shouldShowTabs": true,
+              "tabsObj": {
+                "tab1": {
+                  "label": "3-6 players",
+                  "id": "tab1",
+                  "widgetId": "61ovq2nrw3",
+                  "isVisible": true,
+                  "index": 0
+                },
+                "tab2": {
+                  "label": "2 players",
+                  "id": "tab2",
+                  "widgetId": "u0afeza6gw",
+                  "isVisible": true,
+                  "index": 1
+                },
+                "tabe70866pmrl": {
+                  "id": "tabe70866pmrl",
+                  "index": 2,
+                  "label": "Fun Variations",
+                  "widgetId": "3kiwi5t1y1",
+                  "isVisible": true
+                }
+              },
               "isVisible": true,
-              "version": 1,
+              "version": 3,
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
@@ -139,136 +407,6 @@
               "enableDownload": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "enableRotation": false
-            },
-            {
-              "boxShadow": "none",
-              "widgetName": "ButtonGroup1",
-              "isCanvas": false,
-              "displayName": "Button Group",
-              "iconSVG": "/static/media/icon.d6773218cfb61dcfa5f460d43371e30d.svg",
-              "searchTags": [
-                "click",
-                "submit"
-              ],
-              "topRow": 8,
-              "bottomRow": 12,
-              "parentRowSpace": 10,
-              "groupButtons": {
-                "groupButton1": {
-                  "label": "3-6 Player",
-                  "iconName": "heart",
-                  "id": "groupButton1",
-                  "widgetId": "",
-                  "buttonType": "SIMPLE",
-                  "placement": "CENTER",
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "index": 0,
-                  "menuItems": {},
-                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
-                },
-                "groupButton2": {
-                  "label": "2 Player",
-                  "iconName": "add",
-                  "id": "groupButton2",
-                  "buttonType": "SIMPLE",
-                  "placement": "CENTER",
-                  "widgetId": "",
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "index": 1,
-                  "menuItems": {},
-                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
-                },
-                "groupButton3": {
-                  "label": "Fun Variations",
-                  "iconName": "more",
-                  "id": "groupButton3",
-                  "buttonType": "SIMPLE",
-                  "placement": "CENTER",
-                  "widgetId": "",
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "index": 2,
-                  "menuItems": {
-                    "menuItem1": {
-                      "label": "First Option",
-                      "backgroundColor": "#FFFFFF",
-                      "id": "menuItem1",
-                      "widgetId": "",
-                      "onClick": "",
-                      "isVisible": true,
-                      "isDisabled": false,
-                      "index": 0
-                    },
-                    "menuItem2": {
-                      "label": "Second Option",
-                      "backgroundColor": "#FFFFFF",
-                      "id": "menuItem2",
-                      "widgetId": "",
-                      "onClick": "",
-                      "isVisible": true,
-                      "isDisabled": false,
-                      "index": 1
-                    },
-                    "menuItem3": {
-                      "label": "Delete",
-                      "iconName": "trash",
-                      "iconColor": "#FFFFFF",
-                      "iconAlign": "right",
-                      "textColor": "#FFFFFF",
-                      "backgroundColor": "#DD4B34",
-                      "id": "menuItem3",
-                      "widgetId": "",
-                      "onClick": "",
-                      "isVisible": true,
-                      "isDisabled": false,
-                      "index": 2
-                    }
-                  },
-                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
-                }
-              },
-              "type": "BUTTON_GROUP_WIDGET",
-              "hideCard": false,
-              "animateLoading": true,
-              "parentColumnSpace": 11.234375,
-              "dynamicTriggerPathList": [],
-              "leftColumn": 1,
-              "dynamicBindingPathList": [
-                {
-                  "key": "borderRadius"
-                },
-                {
-                  "key": "childStylesheet.button.buttonColor"
-                },
-                {
-                  "key": "groupButtons.groupButton1.buttonColor"
-                },
-                {
-                  "key": "groupButtons.groupButton2.buttonColor"
-                },
-                {
-                  "key": "groupButtons.groupButton3.buttonColor"
-                }
-              ],
-              "key": "nesnrv7hc1",
-              "orientation": "horizontal",
-              "isDeprecated": false,
-              "rightColumn": 64,
-              "widgetId": "u2udwi4f9l",
-              "isVisible": true,
-              "version": 1,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "childStylesheet": {
-                "button": {
-                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
-                }
-              },
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "buttonVariant": "PRIMARY"
             }
           ]
         },
