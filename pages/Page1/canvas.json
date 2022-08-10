@@ -333,7 +333,7 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "#FFC13D",
-              "text": "{{JSObject1.scores['player1']}}",
+              "text": "{{appsmith.store.player1_score}}",
               "key": "iq982ny69b",
               "isDeprecated": false,
               "rightColumn": 30,

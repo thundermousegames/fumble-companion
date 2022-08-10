@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  JSObject1.scores['player1'] = 3;\n}",
+      "body": "() => {\n  appsmith.store.player1_score = 3;\n}",
       "jsArguments": [],
       "isAsync": false
     },
@@ -34,7 +34,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n  JSObject1.scores['player1'] = 3;\n}"
+      "() => {\n  appsmith.store.player1_score = 3;\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

@@ -6,7 +6,7 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\tmyVar1: [],\n\tscores: {},\n\tincrementPlayer: () => {\n\t\t//storeValue(\"userID\", 42);  \n  //console.log(appsmith.store.userID); \n  //showAlert(\"userID saved\");\n\t\tthis.scores['player1'] = 3;\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "body": "export default {\n\tmyVar1: [],\n\tscores: {\n\t\t'player1':0\n\t},\n\tincrementPlayer: () => {\n\t\t//storeValue(\"userID\", 42);  \n  //console.log(appsmith.store.userID); \n  //showAlert(\"userID saved\");\n\t\t//this.scores['player1'] = 3;\n\t\tappsmith.store.player1_score = 3;\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
     "variables": [
       {
         "name": "myVar1",
@@ -14,7 +14,7 @@
       },
       {
         "name": "scores",
-        "value": "{}"
+        "value": "{\n  'player1': 0\n}"
       }
     ]
   },
