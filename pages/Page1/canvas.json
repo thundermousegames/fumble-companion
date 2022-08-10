@@ -137,9 +137,6 @@
                           "key": "groupButtons.groupButton1.isVisible"
                         },
                         {
-                          "key": "isVisible"
-                        },
-                        {
                           "key": "groupButtons.groupButtonzcgcn0ch4m.isVisible"
                         }
                       ],
@@ -331,7 +328,7 @@
                       "isDeprecated": false,
                       "rightColumn": 64,
                       "widgetId": "ynwz2010ue",
-                      "isVisible": "true\n",
+                      "isVisible": true,
                       "version": 1,
                       "parentId": "ahl1dgvr6z",
                       "renderMode": "CANVAS",
