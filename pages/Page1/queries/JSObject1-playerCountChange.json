@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  for (var x = 1; x <= 6; x++) {\n    storeValue();\n  }\n}",
+      "body": "() => {\n  for (var x = 1; x <= 6; x++) {\n    storeValue(\"player\" + x + \"_active\", x <= parseInt(Select1.selectedOptionValue));\n  }\n}",
       "jsArguments": [],
       "isAsync": true
     },
@@ -33,7 +33,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n  for (var x = 1; x <= 6; x++) {\n    storeValue();\n  }\n}"
+      "() => {\n  for (var x = 1; x <= 6; x++) {\n    storeValue(\"player\" + x + \"_active\", x <= parseInt(Select1.selectedOptionValue));\n  }\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

@@ -121,6 +121,11 @@
                       "widgetName": "Container1Copy4",
                       "borderColor": "#fde047",
                       "isCanvas": true,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "isVisible"
+                        }
+                      ],
                       "displayName": "Container",
                       "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
                       "searchTags": [
@@ -143,6 +148,9 @@
                         },
                         {
                           "key": "boxShadow"
+                        },
+                        {
+                          "key": "isVisible"
                         }
                       ],
                       "children": [
@@ -198,7 +206,7 @@
                               ],
                               "shouldTruncate": false,
                               "truncateButtonColor": "#FFC13D",
-                              "text": "Player 1",
+                              "text": "Player 6",
                               "key": "wa3par0eey",
                               "isDeprecated": false,
                               "rightColumn": 58,
@@ -247,7 +255,7 @@
                               ],
                               "shouldTruncate": false,
                               "truncateButtonColor": "#FFC13D",
-                              "text": "{{appsmith.store.player1_score}}",
+                              "text": "{{appsmith.store.player6_score}}",
                               "key": "iq982ny69b",
                               "isDeprecated": false,
                               "rightColumn": 55,
@@ -286,7 +294,7 @@
                       "rightColumn": 62,
                       "widgetId": "ilete6bbka",
                       "containerStyle": "card",
-                      "isVisible": true,
+                      "isVisible": "{{appsmith.store.player6_active}}",
                       "version": 1,
                       "parentId": "ahl1dgvr6z",
                       "renderMode": "CANVAS",
@@ -298,6 +306,11 @@
                       "widgetName": "Container1Copy3",
                       "borderColor": "#fde047",
                       "isCanvas": true,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "isVisible"
+                        }
+                      ],
                       "displayName": "Container",
                       "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
                       "searchTags": [
@@ -320,6 +333,9 @@
                         },
                         {
                           "key": "boxShadow"
+                        },
+                        {
+                          "key": "isVisible"
                         }
                       ],
                       "children": [
@@ -375,7 +391,7 @@
                               ],
                               "shouldTruncate": false,
                               "truncateButtonColor": "#FFC13D",
-                              "text": "Player 1",
+                              "text": "Player 5",
                               "key": "wa3par0eey",
                               "isDeprecated": false,
                               "rightColumn": 58,
@@ -424,7 +440,7 @@
                               ],
                               "shouldTruncate": false,
                               "truncateButtonColor": "#FFC13D",
-                              "text": "{{appsmith.store.player1_score}}",
+                              "text": "{{appsmith.store.player5_score}}",
                               "key": "iq982ny69b",
                               "isDeprecated": false,
                               "rightColumn": 55,
@@ -463,7 +479,7 @@
                       "rightColumn": 29,
                       "widgetId": "amsuu1hujp",
                       "containerStyle": "card",
-                      "isVisible": true,
+                      "isVisible": "{{appsmith.store.player5_active}}",
                       "version": 1,
                       "parentId": "ahl1dgvr6z",
                       "renderMode": "CANVAS",
@@ -475,6 +491,11 @@
                       "widgetName": "Container1Copy2",
                       "borderColor": "#fde047",
                       "isCanvas": true,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "isVisible"
+                        }
+                      ],
                       "displayName": "Container",
                       "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
                       "searchTags": [
@@ -497,6 +518,9 @@
                         },
                         {
                           "key": "boxShadow"
+                        },
+                        {
+                          "key": "isVisible"
                         }
                       ],
                       "children": [
@@ -552,7 +576,7 @@
                               ],
                               "shouldTruncate": false,
                               "truncateButtonColor": "#FFC13D",
-                              "text": "Player 1",
+                              "text": "Player 4",
                               "key": "wa3par0eey",
                               "isDeprecated": false,
                               "rightColumn": 58,
@@ -601,7 +625,7 @@
                               ],
                               "shouldTruncate": false,
                               "truncateButtonColor": "#FFC13D",
-                              "text": "{{appsmith.store.player1_score}}",
+                              "text": "{{appsmith.store.player4_score}}",
                               "key": "iq982ny69b",
                               "isDeprecated": false,
                               "rightColumn": 55,
@@ -640,7 +664,7 @@
                       "rightColumn": 62,
                       "widgetId": "jfrksfr1uq",
                       "containerStyle": "card",
-                      "isVisible": true,
+                      "isVisible": "{{appsmith.store.player4_active}}",
                       "version": 1,
                       "parentId": "ahl1dgvr6z",
                       "renderMode": "CANVAS",
@@ -652,6 +676,11 @@
                       "widgetName": "Container1Copy1",
                       "borderColor": "#fde047",
                       "isCanvas": true,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "isVisible"
+                        }
+                      ],
                       "displayName": "Container",
                       "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
                       "searchTags": [
@@ -674,6 +703,9 @@
                         },
                         {
                           "key": "boxShadow"
+                        },
+                        {
+                          "key": "isVisible"
                         }
                       ],
                       "children": [
@@ -729,7 +761,7 @@
                               ],
                               "shouldTruncate": false,
                               "truncateButtonColor": "#FFC13D",
-                              "text": "Player 1",
+                              "text": "Player 3",
                               "key": "wa3par0eey",
                               "isDeprecated": false,
                               "rightColumn": 58,
@@ -778,7 +810,7 @@
                               ],
                               "shouldTruncate": false,
                               "truncateButtonColor": "#FFC13D",
-                              "text": "{{appsmith.store.player1_score}}",
+                              "text": "{{appsmith.store.player3_score}}",
                               "key": "iq982ny69b",
                               "isDeprecated": false,
                               "rightColumn": 55,
@@ -817,7 +849,7 @@
                       "rightColumn": 29,
                       "widgetId": "xuknl22qwb",
                       "containerStyle": "card",
-                      "isVisible": true,
+                      "isVisible": "{{appsmith.store.player3_active}}",
                       "version": 1,
                       "parentId": "ahl1dgvr6z",
                       "renderMode": "CANVAS",
@@ -1575,7 +1607,7 @@
               "rightColumn": 63,
               "widgetId": "iv7k3adrea",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "defaultTab": "Tab 1",
+              "defaultTab": "Scoreboard",
               "shouldShowTabs": true,
               "tabsObj": {
                 "tab1": {
@@ -1649,7 +1681,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "() => {\n  storeValue('player6_active', true);\n  storeValue('scoreboard', 'Player 1: 0');\n  storeValue(\"player1_score\", 0);\n  storeValue(\"player2_score\", 0);\n  storeValue(\"player3_score\", 0);\n  storeValue(\"player4_score\", 0);\n  storeValue(\"player5_score\", 0);\n  storeValue(\"player6_score\", 0);\n}"
+                "() => {\n  JSObject1.playerCountChange();\n  storeValue('scoreboard', 'Player 1: 0');\n  storeValue(\"player1_score\", 0);\n  storeValue(\"player2_score\", 0);\n  storeValue(\"player3_score\", 0);\n  storeValue(\"player4_score\", 0);\n  storeValue(\"player5_score\", 0);\n  storeValue(\"player6_score\", 0);\n}"
               ],
               "timeoutInMillisecond": 10000
             }
