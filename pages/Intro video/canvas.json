@@ -33,7 +33,7 @@
               "searchTags": [
                 "youtube"
               ],
-              "topRow": 4,
+              "topRow": 0,
               "bottomRow": 43,
               "parentRowSpace": 10,
               "type": "VIDEO_WIDGET",
@@ -41,7 +41,7 @@
               "animateLoading": true,
               "parentColumnSpace": 11.671875,
               "dynamicTriggerPathList": [],
-              "leftColumn": 1,
+              "leftColumn": 0,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
