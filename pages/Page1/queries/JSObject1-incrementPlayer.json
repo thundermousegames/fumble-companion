@@ -19,12 +19,12 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "(pnum, amt) => {\n  var key = \"player\" + pnum + \"_score\";\n  storeValue(key, appsmith.store[key] + amt);\n}",
+      "body": "(pnum, amt) => {\n  var key = \"player\" + pnum + \"_score\";\n  var val = appsmith.store[key] + amt;\n  if (val >= 0) {\n    storeValue(key, val);\n  }\n}",
       "jsArguments": [
         {},
         {}
       ],
-      "isAsync": true
+      "isAsync": false
     },
     "executeOnLoad": false,
     "clientSideExecution": true,
@@ -37,7 +37,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "(pnum, amt) => {\n  var key = \"player\" + pnum + \"_score\";\n  storeValue(key, appsmith.store[key] + amt);\n}"
+      "(pnum, amt) => {\n  var key = \"player\" + pnum + \"_score\";\n  var val = appsmith.store[key] + amt;\n  if (val >= 0) {\n    storeValue(key, val);\n  }\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

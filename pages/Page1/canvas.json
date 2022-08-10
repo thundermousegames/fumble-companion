@@ -121,6 +121,11 @@
                       "widgetName": "Container1Copy6Copy2",
                       "borderColor": "#fde047",
                       "isCanvas": true,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "isVisible"
+                        }
+                      ],
                       "displayName": "Container",
                       "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
                       "searchTags": [
@@ -143,6 +148,9 @@
                         },
                         {
                           "key": "boxShadow"
+                        },
+                        {
+                          "key": "isVisible"
                         }
                       ],
                       "children": [
@@ -396,7 +404,7 @@
                       "rightColumn": 64,
                       "widgetId": "x2y40p69tr",
                       "containerStyle": "card",
-                      "isVisible": true,
+                      "isVisible": "{{appsmith.store.player6_active}}",
                       "version": 1,
                       "parentId": "ahl1dgvr6z",
                       "renderMode": "CANVAS",
@@ -408,6 +416,11 @@
                       "widgetName": "Container1Copy6Copy1",
                       "borderColor": "#fde047",
                       "isCanvas": true,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "isVisible"
+                        }
+                      ],
                       "displayName": "Container",
                       "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
                       "searchTags": [
@@ -430,6 +443,9 @@
                         },
                         {
                           "key": "boxShadow"
+                        },
+                        {
+                          "key": "isVisible"
                         }
                       ],
                       "children": [
@@ -683,7 +699,7 @@
                       "rightColumn": 32,
                       "widgetId": "w0capwsjvz",
                       "containerStyle": "card",
-                      "isVisible": true,
+                      "isVisible": "{{appsmith.store.player5_active}}",
                       "version": 1,
                       "parentId": "ahl1dgvr6z",
                       "renderMode": "CANVAS",
@@ -695,6 +711,11 @@
                       "widgetName": "Container1Copy6Copy",
                       "borderColor": "#fde047",
                       "isCanvas": true,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "isVisible"
+                        }
+                      ],
                       "displayName": "Container",
                       "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
                       "searchTags": [
@@ -717,6 +738,9 @@
                         },
                         {
                           "key": "boxShadow"
+                        },
+                        {
+                          "key": "isVisible"
                         }
                       ],
                       "children": [
@@ -970,7 +994,7 @@
                       "rightColumn": 64,
                       "widgetId": "2i3odu9gpe",
                       "containerStyle": "card",
-                      "isVisible": true,
+                      "isVisible": "{{appsmith.store.player4_active}}",
                       "version": 1,
                       "parentId": "ahl1dgvr6z",
                       "renderMode": "CANVAS",
@@ -982,6 +1006,11 @@
                       "widgetName": "Container1Copy6",
                       "borderColor": "#fde047",
                       "isCanvas": true,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "isVisible"
+                        }
+                      ],
                       "displayName": "Container",
                       "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
                       "searchTags": [
@@ -1004,6 +1033,9 @@
                         },
                         {
                           "key": "boxShadow"
+                        },
+                        {
+                          "key": "isVisible"
                         }
                       ],
                       "children": [
@@ -1257,7 +1289,7 @@
                       "rightColumn": 32,
                       "widgetId": "tlskrhe0cb",
                       "containerStyle": "card",
-                      "isVisible": true,
+                      "isVisible": "{{appsmith.store.player3_active}}",
                       "version": 1,
                       "parentId": "ahl1dgvr6z",
                       "renderMode": "CANVAS",
