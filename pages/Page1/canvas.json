@@ -30,6 +30,11 @@
               "widgetName": "Container1",
               "borderColor": "transparent",
               "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "backgroundColor"
+                }
+              ],
               "displayName": "Container",
               "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
               "searchTags": [
@@ -44,6 +49,7 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 10.84375,
+              "dynamicTriggerPathList": [],
               "leftColumn": 15,
               "dynamicBindingPathList": [
                 {
@@ -93,7 +99,7 @@
               ],
               "borderWidth": "0",
               "key": "s3ebkvcb05",
-              "backgroundColor": "#FFFFFF",
+              "backgroundColor": "url('https://static.wixstatic.com/media/7458a6_ba33feb912d14a10a9e807f195e2ff2b~mv2.jpg/v1/fill/w_2630,h_1818,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/7458a6_ba33feb912d14a10a9e807f195e2ff2b~mv2.jpg')",
               "isDeprecated": false,
               "rightColumn": 39,
               "widgetId": "vpt7ivh8dg",
