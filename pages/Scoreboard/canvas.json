@@ -2350,6 +2350,7 @@
                       "animateLoading": true,
                       "overflow": "NONE",
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "dynamicTriggerPathList": [],
                       "leftColumn": 1,
                       "dynamicBindingPathList": [
                         {
@@ -2361,7 +2362,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "#FFC13D",
-                      "text": "Modal Title",
+                      "text": "Players",
                       "key": "137ue6tmh3",
                       "isDeprecated": false,
                       "rightColumn": 41,
@@ -2569,7 +2570,7 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "width": 456
+              "width": 406
             },
             {
               "resetFormOnClick": false,
