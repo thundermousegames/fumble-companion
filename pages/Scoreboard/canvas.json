@@ -334,7 +334,7 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "5rem"
+                      "fontSize": "4.5rem"
                     }
                   ],
                   "key": "8kwk9ynfmd",
@@ -624,7 +624,7 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "5rem"
+                      "fontSize": "4.5rem"
                     }
                   ],
                   "key": "8kwk9ynfmd",
@@ -922,7 +922,7 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "5rem"
+                      "fontSize": "4.5rem"
                     }
                   ],
                   "key": "8kwk9ynfmd",
@@ -1220,7 +1220,7 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "5rem"
+                      "fontSize": "4.5rem"
                     }
                   ],
                   "key": "8kwk9ynfmd",
@@ -1518,7 +1518,7 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "5rem"
+                      "fontSize": "4.5rem"
                     }
                   ],
                   "key": "8kwk9ynfmd",
@@ -1816,7 +1816,7 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "5rem"
+                      "fontSize": "4.5rem"
                     }
                   ],
                   "key": "8kwk9ynfmd",
