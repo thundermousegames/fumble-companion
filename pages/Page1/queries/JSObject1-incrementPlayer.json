@@ -19,11 +19,9 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "amount => {\n  storeValue(\"userID\", 42);\n  console.log(appsmith.store.userID);\n  showAlert(\"userID saved\");\n  JSObject1.scores['player1'] = amount;\n}",
-      "jsArguments": [
-        {}
-      ],
-      "isAsync": true
+      "body": "() => {\n  JSObject1.scores['player1'] = 3;\n}",
+      "jsArguments": [],
+      "isAsync": false
     },
     "executeOnLoad": false,
     "clientSideExecution": true,
@@ -36,7 +34,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "amount => {\n  storeValue(\"userID\", 42);\n  console.log(appsmith.store.userID);\n  showAlert(\"userID saved\");\n  JSObject1.scores['player1'] = amount;\n}"
+      "() => {\n  JSObject1.scores['player1'] = 3;\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
