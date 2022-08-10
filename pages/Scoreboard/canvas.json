@@ -269,7 +269,7 @@
                       "text": "{{appsmith.store.player1_name}}",
                       "key": "wa3par0eey",
                       "isDeprecated": false,
-                      "rightColumn": 49,
+                      "rightColumn": 62,
                       "textAlign": "CENTER",
                       "widgetId": "vn8t95vw5j",
                       "isVisible": true,
@@ -280,7 +280,7 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "1.8rem"
+                      "fontSize": "1.6rem"
                     },
                     {
                       "widgetName": "Text1",
@@ -559,7 +559,7 @@
                       "text": "{{appsmith.store.player2_name}}",
                       "key": "wa3par0eey",
                       "isDeprecated": false,
-                      "rightColumn": 49,
+                      "rightColumn": 62,
                       "textAlign": "CENTER",
                       "widgetId": "53ypp0vpg7",
                       "isVisible": true,
@@ -570,7 +570,7 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "1.8rem"
+                      "fontSize": "1.6rem"
                     },
                     {
                       "widgetName": "Text1Copy5",
@@ -857,7 +857,7 @@
                       "text": "{{appsmith.store.player3_name}}",
                       "key": "wa3par0eey",
                       "isDeprecated": false,
-                      "rightColumn": 49,
+                      "rightColumn": 62,
                       "textAlign": "CENTER",
                       "widgetId": "mom784rb50",
                       "isVisible": true,
@@ -868,7 +868,7 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "1.8rem"
+                      "fontSize": "1.6rem"
                     },
                     {
                       "widgetName": "Text1Copy6",
@@ -1155,7 +1155,7 @@
                       "text": "{{appsmith.store.player4_name}}",
                       "key": "wa3par0eey",
                       "isDeprecated": false,
-                      "rightColumn": 49,
+                      "rightColumn": 62,
                       "textAlign": "CENTER",
                       "widgetId": "xnmpd8h1gx",
                       "isVisible": true,
@@ -1166,7 +1166,7 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "1.8rem"
+                      "fontSize": "1.6rem"
                     },
                     {
                       "widgetName": "Text1Copy6Copy3",
@@ -1453,7 +1453,7 @@
                       "text": "{{appsmith.store.player5_name}}",
                       "key": "wa3par0eey",
                       "isDeprecated": false,
-                      "rightColumn": 49,
+                      "rightColumn": 62,
                       "textAlign": "CENTER",
                       "widgetId": "h2o6s08x0h",
                       "isVisible": true,
@@ -1464,7 +1464,7 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "1.8rem"
+                      "fontSize": "1.6rem"
                     },
                     {
                       "widgetName": "Text1Copy6Copy1",
@@ -1751,7 +1751,7 @@
                       "text": "{{appsmith.store.player6_name}}",
                       "key": "wa3par0eey",
                       "isDeprecated": false,
-                      "rightColumn": 49,
+                      "rightColumn": 62,
                       "textAlign": "CENTER",
                       "widgetId": "uu5v5un4ad",
                       "isVisible": true,
@@ -1762,7 +1762,7 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "1.8rem"
+                      "fontSize": "1.6rem"
                     },
                     {
                       "widgetName": "Text1Copy6Copy2",
