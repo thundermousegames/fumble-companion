@@ -7,6 +7,10 @@
     {
       "id": "Rules",
       "isDefault": false
+    },
+    {
+      "id": "Intro video",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -17,7 +21,7 @@
     "type": "FLUID"
   },
   "publishedAppLayout": {
-    "type": "MOBILE"
+    "type": "FLUID"
   },
   "evaluationVersion": 2,
   "applicationVersion": 2,
