@@ -16,7 +16,8 @@
         "name": "scores",
         "value": "{\n  'player1': 0\n}"
       }
-    ]
+    ],
+    "userPermissions": []
   },
   "id": "Scoreboard_JSObject1",
   "deleted": false,

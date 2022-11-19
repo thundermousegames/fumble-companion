@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 59,
+          "version": 67,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -2655,6 +2655,7 @@
             }
           ]
         ],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Scoreboard",
         "deleted": false,

@@ -20,6 +20,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "tab => {\n  Iframe1.isVisible = false;\n  switch (tab) {\n    case 1:\n      Iframe1.isVisible = true;\n  }\n}",
+      "selfReferencingDataPaths": [],
       "jsArguments": [
         {}
       ],

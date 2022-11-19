@@ -16,7 +16,8 @@
         "name": "myVar2",
         "value": "{}"
       }
-    ]
+    ],
+    "userPermissions": []
   },
   "id": "Rules_rule_nav",
   "deleted": false,

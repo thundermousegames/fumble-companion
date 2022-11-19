@@ -20,6 +20,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "() => {\n  storeValue(\"player1_name\", player1name.text);\n  storeValue(\"player2_name\", player2name.text);\n  storeValue(\"player3_name\", player3name.text);\n  storeValue(\"player4_name\", player4name.text);\n  storeValue(\"player5_name\", player5name.text);\n  storeValue(\"player6_name\", player6name.text);\n  closeModal('Modal1');\n}",
+      "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
     },
