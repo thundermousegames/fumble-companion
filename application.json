@@ -13,7 +13,7 @@
       "isDefault": false
     },
     {
-      "id": "Page1",
+      "id": "About",
       "isDefault": false
     }
   ],
@@ -21,12 +21,14 @@
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#FBF4ED",
+  "icon": "basketball",
   "unpublishedAppLayout": {
     "type": "FLUID"
   },
   "publishedAppLayout": {
     "type": "FLUID"
   },
+  "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
   "isManualUpdate": false,

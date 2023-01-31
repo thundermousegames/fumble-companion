@@ -6,7 +6,6 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tswitch_rule: (tab) => {\n\t\tIframe1.isVisible = false;\n\t\tswitch(tab) {\n\t\t\tcase 1:\n\t\t\t\tIframe1.isVisible = true;\n\t\t}\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
     "variables": [
       {
         "name": "myVar1",
