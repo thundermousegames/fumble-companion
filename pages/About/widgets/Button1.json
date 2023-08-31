@@ -1,0 +1,43 @@
+{
+    "resetFormOnClick": false,
+    "boxShadow": "none",
+    "widgetName": "Button1",
+    "onClick": "{{navigateTo('https://thundermouse.games', {}, 'SAME_WINDOW')}}",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "displayName": "Button",
+    "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+    "searchTags": [
+        "click",
+        "submit"
+    ],
+    "topRow": 46,
+    "bottomRow": 50,
+    "parentRowSpace": 10,
+    "type": "BUTTON_WIDGET",
+    "hideCard": false,
+    "animateLoading": true,
+    "parentColumnSpace": 18.0625,
+    "dynamicTriggerPathList": [{"key": "onClick"}],
+    "leftColumn": 9,
+    "dynamicBindingPathList": [
+        {"key": "buttonColor"},
+        {"key": "borderRadius"}
+    ],
+    "text": "thundermouse.games",
+    "isDisabled": false,
+    "key": "c936gkd1ao",
+    "isDeprecated": false,
+    "rightColumn": 57,
+    "isDefaultClickDisabled": true,
+    "widgetId": "h2hw6ql6f0",
+    "isVisible": true,
+    "recaptchaType": "V3",
+    "version": 1,
+    "parentId": "0",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "disabledWhenInvalid": false,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "buttonVariant": "PRIMARY",
+    "placement": "CENTER"
+}

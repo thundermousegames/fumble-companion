@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun2",
-    "fullyQualifiedName": "rule_nav.myFun2",
+    "name": "playerCountChange",
+    "fullyQualifiedName": "JSObject1.playerCountChange",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,19 +13,17 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Rules",
-    "collectionId": "Rules_rule_nav",
+    "pageId": "Scoreboard",
+    "collectionId": "Scoreboard_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "async () => {}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
     },
     "executeOnLoad": false,
-    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -34,15 +32,12 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "async () => {}"
-    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Rules_rule_nav.myFun2",
+  "id": "Scoreboard_JSObject1.playerCountChange",
   "deleted": false,
-  "gitSyncId": "62f38bcf74d6e95d0a53ff15_62f3ff1874d6e95d0a542798"
+  "gitSyncId": "62f38bcf74d6e95d0a53ff15_62f39cc374d6e95d0a540437"
 }

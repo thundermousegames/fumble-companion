@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "playerCountChange",
-    "fullyQualifiedName": "JSObject1.playerCountChange",
+    "name": "switch_rule",
+    "fullyQualifiedName": "rule_nav.switch_rule",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,18 +13,22 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Scoreboard",
-    "collectionId": "Scoreboard_JSObject1",
+    "pageId": "Rules",
+    "collectionId": "Rules_rule_nav",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  for (var x = 1; x <= 6; x++) {\n    storeValue(\"player\" + x + \"_active\", x <= parseInt(Select1Copy.selectedOptionValue));\n  }\n}",
       "selfReferencingDataPaths": [],
-      "jsArguments": [],
-      "isAsync": true
+      "jsArguments": [
+        {
+          "name": "tab"
+        }
+      ],
+      "isAsync": false
     },
     "executeOnLoad": false,
+    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -33,15 +37,12 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "() => {\n  for (var x = 1; x <= 6; x++) {\n    storeValue(\"player\" + x + \"_active\", x <= parseInt(Select1Copy.selectedOptionValue));\n  }\n}"
-    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Scoreboard_JSObject1.playerCountChange",
+  "id": "Rules_rule_nav.switch_rule",
   "deleted": false,
-  "gitSyncId": "62f38bcf74d6e95d0a53ff15_62f39cc374d6e95d0a540437"
+  "gitSyncId": "62f38bcf74d6e95d0a53ff15_62f3ff1874d6e95d0a542797"
 }

@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "switch_rule",
-    "fullyQualifiedName": "rule_nav.switch_rule",
+    "name": "initialize",
+    "fullyQualifiedName": "JSObject1.initialize",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,20 +13,17 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Rules",
-    "collectionId": "Rules_rule_nav",
+    "pageId": "Scoreboard",
+    "collectionId": "Scoreboard_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "tab => {\n  Iframe1.isVisible = false;\n  switch (tab) {\n    case 1:\n      Iframe1.isVisible = true;\n  }\n}",
       "selfReferencingDataPaths": [],
-      "jsArguments": [
-        {}
-      ],
-      "isAsync": false
+      "jsArguments": [],
+      "isAsync": true
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
@@ -36,15 +33,12 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "tab => {\n  Iframe1.isVisible = false;\n  switch (tab) {\n    case 1:\n      Iframe1.isVisible = true;\n  }\n}"
-    ],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Rules_rule_nav.switch_rule",
+  "id": "Scoreboard_JSObject1.initialize",
   "deleted": false,
-  "gitSyncId": "62f38bcf74d6e95d0a53ff15_62f3ff1874d6e95d0a542797"
+  "gitSyncId": "62f38bcf74d6e95d0a53ff15_62f38f2074d6e95d0a540000"
 }

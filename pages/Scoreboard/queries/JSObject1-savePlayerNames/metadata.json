@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "initialize",
-    "fullyQualifiedName": "JSObject1.initialize",
+    "name": "savePlayerNames",
+    "fullyQualifiedName": "JSObject1.savePlayerNames",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -19,13 +19,11 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  JSObject1.playerCountChange();\n  for (var x = 1; x <= 6; x++) {\n    storeValue(\"player\" + x + \"_score\", 0);\n    storeValue(\"player\" + x + \"_name\", \"Player \" + x);\n  }\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
     },
-    "executeOnLoad": true,
-    "clientSideExecution": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -34,15 +32,12 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "() => {\n  JSObject1.playerCountChange();\n  for (var x = 1; x <= 6; x++) {\n    storeValue(\"player\" + x + \"_score\", 0);\n    storeValue(\"player\" + x + \"_name\", \"Player \" + x);\n  }\n}"
-    ],
-    "userSetOnLoad": true,
+    "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Scoreboard_JSObject1.initialize",
+  "id": "Scoreboard_JSObject1.savePlayerNames",
   "deleted": false,
-  "gitSyncId": "62f38bcf74d6e95d0a53ff15_62f38f2074d6e95d0a540000"
+  "gitSyncId": "62f38bcf74d6e95d0a53ff15_62f40e3674d6e95d0a542c11"
 }
