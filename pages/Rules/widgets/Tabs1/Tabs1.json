@@ -131,7 +131,7 @@
     "dynamicHeight": "FIXED",
     "widgetId": "wc8ig112o0",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "defaultTab": "3-6 players",
+    "defaultTab": "2 players",
     "shouldShowTabs": true,
     "tabsObj": {
         "tabe70866pmrl": {
